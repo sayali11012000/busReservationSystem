@@ -1,5 +1,5 @@
-package com.lti.beans;
-
-public class Ticket {
-
-}
+//package com.lti.beans;
+//
+//public class Ticket {
+//
+//}

@@ -1,5 +1,5 @@
-package com.lti.dao;
-
-public class TicketsDaoImpl {
-
-}
+//package com.lti.dao;
+//
+//public class TicketsDaoImpl {
+//
+//}

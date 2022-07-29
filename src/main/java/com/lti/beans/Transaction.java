@@ -1,5 +1,5 @@
-package com.lti.beans;
-
-public class Transaction {
-
-}
+//package com.lti.beans;
+//
+//public class Transaction {
+//
+//}

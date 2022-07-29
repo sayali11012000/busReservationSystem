@@ -1,5 +1,5 @@
-package com.lti.controller;
-
-public class TicketController {
-
-}
+//package com.lti.controller;
+//
+//public class TicketController {
+//
+//}

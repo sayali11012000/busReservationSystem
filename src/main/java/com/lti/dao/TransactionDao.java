@@ -1,5 +1,5 @@
-package com.lti.dao;
-
-public interface TransactionDao {
-
-}
+//package com.lti.dao;
+//
+//public interface TransactionDao {
+//
+//}
