@@ -25,4 +25,17 @@ public class AdminDaoImpl implements AdminDao {
 		System.out.println(adminList);
 		return adminList;
 	}
+	
+	public boolean validateAdmin(String security_id, String passcode) {
+		Query qry = em.createQuery("select al.passcode from Admin al where al.security_id=:s_id");
+		qry.setParameter("s_id", security_id);
+		String s = (String) qry.getSingleResult();
+		if(passcode==s) {
+			return true;
+		}
+		else {
+			return false;
+		}
+		
+	}
 }

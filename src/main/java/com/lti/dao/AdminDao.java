@@ -8,5 +8,7 @@ import com.lti.beans.User;
 public interface AdminDao {
 	
 	List<Admin> findAdminList();
+	boolean validateAdmin(String security_id, String passcode);
+	
 
 }

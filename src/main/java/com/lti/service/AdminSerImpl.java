@@ -20,4 +20,8 @@ public class AdminSerImpl implements AdminService{
 		List<Admin> adminList= dao.findAdminList();
 		return adminList;
 	}
+	
+	public boolean validateAdmin(String security_id,String passcode) {
+		return dao.validateAdmin(security_id, passcode);
+	}
 }
